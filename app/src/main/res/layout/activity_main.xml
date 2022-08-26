@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="200dp"
         android:visibility="visible"
-        app:layout_constraintTop_toTopOf="@id/seekBar"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_carheadlight" />
 
     <SeekBar
@@ -28,7 +28,7 @@
         android:progress="500"
         android:progressTint="@color/yellow"
         android:thumb="@drawable/seek"
-        app:layout_constraintBottom_toBottomOf="@id/imageView"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
